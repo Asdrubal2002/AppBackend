@@ -1,0 +1,13 @@
+# Django
+*.pyc
+__pycache__/
+.env
+db.sqlite3
+/media
+/staticfiles
+firebase_config.py
+firebasedocument.json
+
+# Entorno virtual
+venv/
+env/
