@@ -62,6 +62,8 @@ INSTALLED_APPS = [
     'apps.carts',
     'apps.notification',
     'import_export',
+    'cloudinary',
+    'cloudinary_storage',
 ]
 
 MIDDLEWARE = [
@@ -224,9 +226,19 @@ CSRF_TRUSTED_ORIGINS = [
     "http://192.168.39.177:19000",
 ]
 
+
 # Aumentar límite de carga de archivos
 DATA_UPLOAD_MAX_MEMORY_SIZE = 262144000  # 100 MB
 FILE_UPLOAD_MAX_MEMORY_SIZE = 104857600  # 250 MB
+
+CLOUDINARY_STORAGE = {
+    'CLOUD_NAME': os.getenv("CLOUD_NAME"),
+    'API_KEY': os.getenv("API_KEY"),
+    'API_SECRET': os.getenv("API_SECRET")
+}
+
+DEFAULT_FILE_STORAGE = 'cloudinary_storage.storage.MediaCloudinaryStorage'
+
 
 # Usar almacenamiento temporal para archivos pesados (en disco, no RAM)
 FILE_UPLOAD_HANDLERS = [
