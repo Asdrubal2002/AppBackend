@@ -51,6 +51,10 @@ INSTALLED_APPS = [
     'django.contrib.contenttypes',
     'django.contrib.sessions',
     'django.contrib.messages',
+
+    'cloudinary',
+    'cloudinary_storage',
+
     'django.contrib.staticfiles',
     'django.contrib.gis',  # <--- esto es clave para GeoDjango
     'apps.users',
@@ -62,8 +66,7 @@ INSTALLED_APPS = [
     'apps.carts',
     'apps.notification',
     'import_export',
-    'cloudinary',
-    'cloudinary_storage',
+    
 ]
 
 MIDDLEWARE = [
