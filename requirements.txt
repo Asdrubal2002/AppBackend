@@ -1,3 +1,6 @@
+pip>=24.0
+setuptools>=69.0
+wheel
 annotated-types==0.7.0
 anyio==4.9.0
 asgiref==3.8.1
