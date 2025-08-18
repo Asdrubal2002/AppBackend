@@ -42,8 +42,8 @@ from rest_framework.generics import ListAPIView
 from rest_framework import status, permissions, parsers
 from ..utils import compress_image
 from rest_framework.exceptions import PermissionDenied
-import spacy
-from transformers import pipeline
+# import spacy
+# from transformers import pipeline
 from collections import Counter
 import random
 from django.http import JsonResponse
