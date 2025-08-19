@@ -366,7 +366,7 @@ class ShippingMethodSerializer(serializers.ModelSerializer):
         read_only_fields = ['created_at', 'updated_at']
 
 class ShippingMethodZoneSerializer(serializers.ModelSerializer):
-    shipping_method_name = serializers.CharField(source='shipping_method.get_name_display', read_only=True)
+    shipping_method_display = serializers.CharField(source='shipping_method.name_display', read_only=True)
     zone_name = serializers.CharField(source='zone.name', read_only=True)
 
     class Meta:
@@ -375,7 +375,7 @@ class ShippingMethodZoneSerializer(serializers.ModelSerializer):
             'id',
             'shipping_method', 'zone',
             'custom_cost', 'custom_days',
-            'shipping_method_name', 'zone_name'
+            'shipping_method_display', 'zone_name'
         ]
 
     def validate(self, data):
