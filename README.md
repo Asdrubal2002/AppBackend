@@ -34,16 +34,14 @@ El sistema completo está dividido en tres repositorios/proyectos independientes
 - **.gitignore** → Archivos y carpetas que no se versionan en Git  
 - **README.md** → Documentación del backend  
 
-### 📦 Apps de Postgrest
+### 📦 Estructura de Apps
 
 - **carts/** → Gestión de carritos/canasta de compras.  
 - **locations/** → Manejo de ubicaciones y localidades nacionales e internacionales.  
 - **notification/** → Sistema de notificaciones internas (avisos a usuarios/tiendas).  
 - **stores/** → Administración de las negocios registradas en la aplicación.  
 - **users/** → Gestión de usuarios, roles y autenticación.
-
-- ### 📦 Apps de Mongo
-
 - **post/** → Gestión de publicaciones de cada negocio.  
 - **CommentsProduct/** → Administración de los comentarios de cada producto.  
 - **product/** → Sistema de administración de productos.  
+
