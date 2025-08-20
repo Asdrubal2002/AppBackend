@@ -13,7 +13,7 @@ Permite registrar los negocios,usuarios, calcular márgenes de ganancia y consul
 - Mongo DB
 - firebase
 - cloudinary
-- 
+- JWT
 
 ## 📂 Estructura básica
 El sistema completo está dividido en tres repositorios/proyectos independientes:
