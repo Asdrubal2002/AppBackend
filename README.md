@@ -22,6 +22,8 @@ El sistema completo está dividido en tres repositorios/proyectos independientes
 - firebase
 - cloudinary
 - JWT
+- Ionicons
+- Leaflet Map
 
 ### 📁 Estructura interna del Backend
 
