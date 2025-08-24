@@ -9,7 +9,7 @@ Permite registrar los negocios,usuarios, calcular márgenes de ganancia y consul
 El sistema completo está dividido en tres repositorios/proyectos independientes:
 
 - **Backend** → API desarrollada en Django REST Framework, gestiona productos, ventas y reportes.  
-- **[Frontend (App)](https://github.com/Asdrubal2002/App)** → Interfaz principal de la plataforma, desarrollada en React/Vite.  
+- **[Frontend (App)](https://github.com/Asdrubal2002/App)** → Interfaz principal de la aplicación, desarrollada en React/Vite.  
 - **[Landing Page](https://github.com/Asdrubal2002/Presentation-Ruvlo-App)** → Sitio público de presentación e información del proyecto.
 
 
