@@ -47,3 +47,5 @@ El sistema completo está dividido en tres repositorios/proyectos independientes
 - **CommentsProduct/** → Administración de los comentarios de cada producto.  
 - **product/** → Sistema de administración de productos.  
 
+
+- **[Documentación sobre el proyecto](https://github.com/Asdrubal2002/AppBackend/blob/main/Documentation.pdf)** → Objetivos, cronograma.
