@@ -48,4 +48,7 @@ El sistema completo está dividido en tres repositorios/proyectos independientes
 - **product/** → Sistema de administración de productos.  
 
 
-- **[Documentación sobre el proyecto](https://github.com/Asdrubal2002/AppBackend/blob/main/Documentation.pdf)** → Objetivos, cronograma.
+### DOCUMENTACIÓN SOBRE EL PROYECTO
+
+
+- **[Documentación](https://github.com/Asdrubal2002/AppBackend/blob/main/Documentation.pdf)** → Objetivos, cronograma.
