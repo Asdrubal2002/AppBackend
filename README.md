@@ -48,10 +48,11 @@ El sistema completo está dividido en tres repositorios/proyectos independientes
 - **product/** → Sistema de administración de productos.  
 
 
-### DOCUMENTACIÓN SOBRE EL PROYECTO
+### 📑 DOCUMENTACIÓN SOBRE EL PROYECTO
 
-- **[Documentación](https://github.com/Asdrubal2002/AppBackend/blob/main/Documentation.pdf)** → Objetivos, cronograma.
+- **[Documentación](https://github.com/Asdrubal2002/AppBackend/blob/main/Documentation.pdf)** → Objetivos, Justificación, Ruvlo diferencial, Innovación y Sostenibilidad ¿Por qué tu solución es viable y única?, Competencia Directa e Indirecta, Análisis de Mercado, Tendencias del Mercado, cronograma, ENTRE OTRAS.
 
 
-### DOCUMENTACIÓN SOBRE EL PROYECTO
-- **[App desplegada](https://appgallery.cloud.huawei.com/ag/n/app/C115034911?locale=es_US&source=appshare&subsource=C115034911&shareTo=com.android.bluetooth&shareFrom=appmarket&shareIds=7c0fe389d25b4bc193975d0a0009e387_com.android.bluetooth&callType=SHARE)**
+### 📱 DESCARGA DE LA APLICACIÓN
+
+- **[AppGallery](https://appgallery.cloud.huawei.com/ag/n/app/C115034911?locale=es_US&source=appshare&subsource=C115034911&shareTo=com.android.bluetooth&shareFrom=appmarket&shareIds=7c0fe389d25b4bc193975d0a0009e387_com.android.bluetooth&callType=SHARE)**
