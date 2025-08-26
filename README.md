@@ -50,5 +50,8 @@ El sistema completo está dividido en tres repositorios/proyectos independientes
 
 ### DOCUMENTACIÓN SOBRE EL PROYECTO
 
-
 - **[Documentación](https://github.com/Asdrubal2002/AppBackend/blob/main/Documentation.pdf)** → Objetivos, cronograma.
+
+
+### DOCUMENTACIÓN SOBRE EL PROYECTO
+- **[App desplegada](https://appgallery.cloud.huawei.com/ag/n/app/C115034911?locale=es_US&source=appshare&subsource=C115034911&shareTo=com.android.bluetooth&shareFrom=appmarket&shareIds=7c0fe389d25b4bc193975d0a0009e387_com.android.bluetooth&callType=SHARE)**
