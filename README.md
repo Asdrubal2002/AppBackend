@@ -50,7 +50,7 @@ El sistema completo está dividido en tres repositorios/proyectos independientes
 
 ### 📑 DOCUMENTACIÓN SOBRE EL PROYECTO
 
-- **[Documentación](https://github.com/Asdrubal2002/AppBackend/blob/main/Documentation.pdf)** → Objetivos, Justificación, Ruvlo diferencial, Innovación y Sostenibilidad ¿Por qué tu solución es viable y única?, Competencia Directa e Indirecta, Análisis de Mercado, Tendencias del Mercado, cronograma, ENTRE OTRAS.
+- **[Documentación](https://github.com/Asdrubal2002/AppBackend/blob/main/Documentation.pdf)** → Objetivos, Justificación, Ruvlo diferencial, Innovación y Sostenibilidad ¿Por qué Ruvlo es viable y única?, Competencia Directa e Indirecta, Análisis de Mercado, Tendencias del Mercado, cronograma, ENTRE OTRAS.
 
 
 ### 📱 DESCARGA DE LA APLICACIÓN
