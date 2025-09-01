@@ -3,7 +3,7 @@
 ## 📌 Descripción
 Este backend está desarrollado en **Python -Django REST Framework** y gestiona toda la lógica de negocio relacionada con negocios, productos, ofertas, cupones, 
 ventas y perfiles de usuario.  
-Permite registrar los negocios,usuarios, consultar reportes de forma sencilla.
+Permite registrar los negocios,usuarios, y consultar reportes de forma sencilla.
 
 ## 📂 Estructura básica
 El sistema completo está dividido en tres repositorios/proyectos independientes:
