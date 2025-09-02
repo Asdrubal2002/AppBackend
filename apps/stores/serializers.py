@@ -235,7 +235,7 @@ class StoreAdminSerializer(serializers.ModelSerializer):
     city_name = serializers.CharField(source='city.name', read_only=True)
     neighborhood_name = serializers.CharField(source='neighborhood.name', read_only=True)
 
-    administrators = serializers.StringRelatedField(many=True)  # O usa otro serializador si quieres más info
+    administrators = serializers.StringRelatedField(many=True) 
     schedules = StoreScheduleSerializer(many=True, read_only=True)
 
     is_open = serializers.SerializerMethodField()
@@ -549,7 +549,7 @@ class ComboItemSerializer(serializers.ModelSerializer):
             {
                 "sku": v.get("sku"),
                 "options": v.get("options", {}),
-                "stock": v.get("stock", 0)  # 👈 Aquí se añade el stock directo
+                "stock": v.get("stock", 0)  # Aquí se añade el stock directo
             }
             for v in variants
         ]
@@ -563,7 +563,7 @@ class ComboItemSerializer(serializers.ModelSerializer):
             variants = product.get("variants", [])
             if not variants:
                 return product.get("stock", 0)
-            return None  # O puedes retornar 0 si prefieres, pero None evita confusión
+            return None 
 
 
 class ComboDetailSerializer(serializers.ModelSerializer):
