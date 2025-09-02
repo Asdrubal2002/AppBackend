@@ -100,11 +100,3 @@ def recommend_similar_posts(user, page=1, limit=100):
         "total_pages": paginator.num_pages,
         "total_posts": paginator.count,
     }
-
-
-
-# ¿Qué hacer ahora?
-# Mejora y llena tu sistema de datos reales.
-# Guarda toda interacción posible.
-# Haz que las reglas actuales funcionen muy bien.
-# Prepara tu arquitectura para escalar (ML-friendly).

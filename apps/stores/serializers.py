@@ -389,7 +389,7 @@ class PaymentMethodSerializer(serializers.ModelSerializer):
     class Meta:
         model = PaymentMethod
         fields = ['id', 'store', 'name', 'account_name', 'account_number', 'payment_link', 'qr_code', 'is_active', 'created_at']
-        read_only_fields = ['id', 'created_at', 'is_active']  # o ajusta según necesidad
+        read_only_fields = ['id', 'created_at', 'is_active'] 
 
 
 class CouponSerializer(serializers.ModelSerializer):

@@ -253,7 +253,7 @@ def process_products_with_images(products, request):
                 break  # Solo la primera imagen
 
         prod["preview_image"] = preview_image_url
-        prod["media"] = []  # Opcional: vaciar para no enviar todas las imágenes
+        prod["media"] = [] 
 
         # Eliminar campo 'images' si existe por si acaso
         prod.pop("images", None)

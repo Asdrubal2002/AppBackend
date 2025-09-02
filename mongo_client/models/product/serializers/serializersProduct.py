@@ -310,7 +310,7 @@ class ProductSerializer(serializers.Serializer):
                 default=product_price
             )
 
-        # (resto del código como ya lo tienes)
+
         try:
             store = Store.objects.get(id=store_id)
         except Store.DoesNotExist:

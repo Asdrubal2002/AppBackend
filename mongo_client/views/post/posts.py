@@ -16,7 +16,7 @@ import random
 posts_collection = mongo_db["post"]
 
 
-PAGE_SIZE = 10  # puedes ajustar este valor
+PAGE_SIZE = 10 
 
 class PostPagination(PageNumberPagination):
     page_size = 10

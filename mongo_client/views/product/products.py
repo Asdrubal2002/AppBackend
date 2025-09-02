@@ -232,7 +232,7 @@ def list_all_products(request):
         return Response({"error": str(e)}, status=400)
 
 class CleanProductMediaView(APIView):
-    permission_classes = [AllowAny] # Ajusta según tu seguridad
+    permission_classes = [AllowAny]
     def post(self, request):
         product_slug = request.data.get("product_slug", "").strip()
 

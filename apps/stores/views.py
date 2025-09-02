@@ -725,7 +725,7 @@ def delete_category(request, category_id):
         
         # Consulta para productos que usan esta categoría
         product_count = db.products.count_documents({
-            'category_id': str(category.id)  # Ajusta según tu esquema en MongoDB
+            'category_id': str(category.id) 
         })
         
         if product_count > 0:

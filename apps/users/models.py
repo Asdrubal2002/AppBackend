@@ -1,6 +1,6 @@
 from django.db import models
 from django.contrib.auth.models import AbstractBaseUser, BaseUserManager, PermissionsMixin
-from apps.locations.models import Country, City, Neighborhood  # Ajusta si tu app se llama diferente
+from apps.locations.models import Country, City, Neighborhood 
 from django.core.exceptions import ValidationError
 
 

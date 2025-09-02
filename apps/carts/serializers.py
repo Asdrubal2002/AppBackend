@@ -8,7 +8,7 @@ class CartItemSerializer(serializers.ModelSerializer):
     product_name = serializers.SerializerMethodField()
     product_image = serializers.SerializerMethodField()
     variant_details = serializers.SerializerMethodField()
-    combo_instance_id = serializers.UUIDField(required=False, allow_null=True)  # 👈 Añade esta línea
+    combo_instance_id = serializers.UUIDField(required=False, allow_null=True) 
 
     class Meta:
         model = CartItem
