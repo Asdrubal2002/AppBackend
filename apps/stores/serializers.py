@@ -433,7 +433,7 @@ class CreateReviewSerializer(serializers.ModelSerializer):
     )
     class Meta:
         model = Review
-        fields = ['rating', 'comment']  # No incluyas 'store' ni 'user'
+        fields = ['rating', 'comment'] 
         
 class UserPublicSerializer(serializers.ModelSerializer):
     initials = serializers.SerializerMethodField()
@@ -460,7 +460,7 @@ class PaymentMethodNameSerializer(serializers.ModelSerializer):
 class ComboItemCreateSerializer(serializers.ModelSerializer):
     class Meta:
         model = ComboItem
-        fields = ['product_id', 'sku', 'quantity']  # selected_options no va
+        fields = ['product_id', 'sku', 'quantity'] 
 
     def validate(self, data):
         instance = ComboItem(**data)

@@ -117,7 +117,7 @@ def is_following_store(request, store_id):
 class FollowedStoresView(generics.ListAPIView):
     permission_classes = [IsAuthenticated]
     serializer_class = StoreMinimalSerializer
-    pagination_class = PageNumberPagination  # o tu clase personalizada
+    pagination_class = PageNumberPagination 
 
     def get_queryset(self):
         queryset = self.request.user.followed_stores.select_related('category')

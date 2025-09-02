@@ -14,7 +14,7 @@ class UserManager(BaseUserManager):
         if not username:
             raise ValueError('The username is required')
         user = self.model(username=username, **extra_fields)
-        user.set_password(password)  # Hashea la contraseña (que será el PIN en este caso)
+        user.set_password(password)
         user.save(using=self._db)
         return user
 

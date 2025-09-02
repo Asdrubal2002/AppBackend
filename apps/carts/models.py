@@ -78,7 +78,7 @@ class CartItem(models.Model):
     product_name = models.CharField(max_length=255)  # Nombre al momento de agregar al carrito
     sku = models.CharField(max_length=100)
     quantity = models.PositiveIntegerField()
-    price = models.DecimalField(max_digits=10, decimal_places=2)  # ← Agrega este campo
+    price = models.DecimalField(max_digits=10, decimal_places=2) 
     selected_options = models.JSONField(default=dict, blank=True)  # ejemplo: { "Talla": "M", "Color": "Negro" }
     combo = models.ForeignKey(Combo, on_delete=models.SET_NULL, null=True, blank=True, related_name="cart_items")
     combo_instance_id = models.UUIDField(null=True, blank=True, db_index=True) 
@@ -98,7 +98,7 @@ class CartItem(models.Model):
         return self.price * self.quantity
 
     def save(self, *args, **kwargs):
-        self.full_clean()  # 👈 Ejecuta clean() automáticamente
+        self.full_clean()  # Ejecuta clean() automáticamente
         super().save(*args, **kwargs)
         self.cart.update_totals()
 
