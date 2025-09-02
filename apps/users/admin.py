@@ -16,7 +16,7 @@ class UserAdmin(BaseUserAdmin):
         ('Información personal', {'fields': (
             'name', 'last_name', 'cellphone', 'email', 'date_of_birth', 'gender',
             'document_number', 'address', 'country', 'city', 'neighborhood',
-            'followed_stores'  # ⬅️ Añade aquí
+            'followed_stores'
         )}),
         ('Permisos', {'fields': ('is_seller', 'is_buyer', 'is_admin', 'is_active', 'is_staff', 'is_superuser')}),
         ('Verificaciones', {'fields': ('verified_cellphone', 'verified_mail')}),
